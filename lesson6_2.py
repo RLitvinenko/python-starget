@@ -1,0 +1,5 @@
+number= int(input("введите число:"))
+print('двоичная система:        ', bin(number))
+print('Восьмеричная чичтема:    ', oct(number))
+print("Шестнадатиричная система:", hex(number))
+print('Десятичная система', int(hex(number),16))
